@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="Scripts/jsbridge.js"></script>
+	</head>
+	<body >
+	<div >
+	Welcome to JSBridge WebView!!
+		<center>
+			<div id="data" style="height:100%;width:100%;background-color:#ffffcc;"></div>
+		</center>
+		<br>
+		<input type="button" value="JSPlugin:showToast" onClick="JSPlugin.showToast('From JS To WebView Android :)')" /><br/>
+		<input type="button" value="JSPlugin:showDialog" onClick="JSPlugin.showDialog('From JS To WebView Android12 :)')" /><br/>
+		<input type="button" value="JSPlugin:callback" onClick="JSPlugin.withCallback('Callback Data :)')" /><br/>
+	</div>
+	</body>
+</html>

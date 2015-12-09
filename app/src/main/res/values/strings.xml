@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">JS Bridge</string>
+
+    <string name="dummy_button">START WEBVIEW</string>
+    <string name="dummy_content">MY JS BRIDGE</string>
+</resources>
